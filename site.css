@@ -1,0 +1,34 @@
+:root{
+    --cor1: #245CA6;
+    --cor2: #243040;
+    --cor3: #04B2D9;
+    --cor4: #F2C094;
+    --cor5: #BF5239;
+
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+background-color: var(--cor4);
+height: 100vh;
+
+}
+header{
+    background-color: var(--cor1);
+    display:flex ;
+    flex-direction: ;
+}
+section{
+background-color: var(--cor5);
+height: 95vh;
+}
+p{
+    
+}
+footer{
+background-color: var(--cor2);
+}

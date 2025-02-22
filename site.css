@@ -95,6 +95,10 @@ a{
     margin: 0px 7px;
     
 }
+ol{
+    columns: 3;
+    list-style: none;
+}
 img{
     padding: 10px 30px 10px 50px;
 }

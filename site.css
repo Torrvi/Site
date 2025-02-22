@@ -40,6 +40,22 @@ header{
 header p{
     font-family: var(--font2);
     padding-left: 9px;
+    margin: 8px 0px;
+}
+img#iconeh{
+    margin: 0px;
+    padding: 0px;
+    width: 15px;
+    height: 15px;
+}
+img#icone{
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+    margin: 2px 4px;
+    border-radius: 50%;
+    margin: 5px 0px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
 }
 section{
     background-color: var(--cor4);
@@ -49,6 +65,14 @@ section{
     margin: auto;
     height: 65.7vh;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.952);
+}
+
+iframe{
+    width: 70vw;
+    max-width: 600px;
+    height: 200px;
+    overflow: scroll;
+    border: 2px solid black;
 }
 div#conteudo{
     padding: 10px;
@@ -61,6 +85,16 @@ div#redes{
     justify-content: center;
     
 }
+div#redes > p{
+    display: flex;
+    align-items: center;    
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 7px;
+    
+}
 img{
     padding: 10px 30px 10px 50px;
 }
@@ -68,16 +102,4 @@ footer{
     background-color: var(--cor2);
     color: white;
     text-align: center;
-}
-header img#icone{
-    padding: 0px;
-    width: 15px;
-    padding: 0px 4px;
-}
-img#icone{
-    padding: 0px;
-    width: 35px;
-    height: 35px;
-    margin: 2px 4px;
-    border-radius: 50%;
 }

@@ -66,28 +66,20 @@ section{
     height: 65.7vh;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.952);
 }
-
-iframe{
-    width: 70vw;
-    max-width: 600px;
-    height: 200px;
-    overflow: scroll;
-    border: 2px solid black;
-}
 div#conteudo{
     padding: 10px;
 }
 div#redes{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding: 10px;
     font-size: 150%;
     justify-content: center;
     
 }
 div#redes > p{
-    display: flex;
-    align-items: center;    
+    display: flex;    
+    align-items: center;
 }
 a{
     text-decoration: none;
@@ -95,9 +87,10 @@ a{
     margin: 0px 7px;
     
 }
-ol{
-    columns: 3;
-    list-style: none;
+a:hover{
+    text-decoration: underline;
+    color: #245CA6;
+    
 }
 img{
     padding: 10px 30px 10px 50px;

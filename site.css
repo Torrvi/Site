@@ -38,6 +38,9 @@ header{
     border-radius: 5px;
     padding-left: 6.2%;
 }
+header h1{
+   padding-top: 40px;
+}
 header p{
     font-family: var(--font2);
     padding-left: 9px;
@@ -111,6 +114,12 @@ footer{
 #medio{
     display: none;
 }
+.mediano {
+    display: none;
+}
+.menor{
+    display: none;
+}
 @media (max-width: 780px){
     #completo {
         display: none;
@@ -124,6 +133,14 @@ footer{
         display: none;
     }
     #reduzido{
+        display: block;
+    }
+}
+@media (max-width: 780px){
+    .maior {
+        display: none;
+    }
+    .menor{
         display: block;
     }
 }

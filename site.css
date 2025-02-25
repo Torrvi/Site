@@ -124,6 +124,9 @@ footer{
     #completo {
         display: none;
     }
+    #perfil{
+        width: 180px;
+    }
     #medio{
         display: block;
     }
@@ -131,6 +134,10 @@ footer{
 @media (max-width: 609px){
     #medio {
         display: none;
+    }
+    #perfil{
+        width: 160px;
+        padding: 5px 5px 5px 35px;
     }
     #reduzido{
         display: block;
